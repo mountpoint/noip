@@ -1,0 +1,13 @@
+{
+    "name": "andrey/noip",
+    "require": {
+        "mountpoint/curl": "~0.1.0"
+    },
+    "authors": [
+        {
+            "name": "Andrey Radzihovskiy",
+            "email": "andreiradzihovs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

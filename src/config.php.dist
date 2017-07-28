@@ -1,0 +1,10 @@
+<?php
+
+return [
+    'scheme'   => 'https',
+    'hostname' => 'someurl.noip.me',
+    'username' => '',
+    'password' => '',
+    'email'    => '',
+    'ipUrl'    => 'https://api.ipify.org/',
+];
