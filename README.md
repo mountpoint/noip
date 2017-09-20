@@ -6,10 +6,9 @@ v0.2.0
 Installation
 ------------------
 
-#### Go to project root and run the next commands:
+#### Go to the project root and run the following command:
 
- - chmod +x install
- - ./install
+```chmod +x install && ./install```
 
 
 Usage
