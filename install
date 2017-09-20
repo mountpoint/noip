@@ -4,4 +4,6 @@ if [ ! -f $(pwd)/src/config.php ]; then
     cp $(pwd)/src/config.php.dist $(pwd)/src/config.php
 fi
 
+chmod +x bin/broadcast
+
 composer install

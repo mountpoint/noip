@@ -1,15 +1,23 @@
+#!/usr/bin/env php
 <?php
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-$config = require_once 'config.php';
+$srcDir = __DIR__ . '/../src/';
+
+$configPath = $srcDir . 'config.php';
+if (!file_exists($configPath)) {
+    throw new Exception('Config file not found!');
+}
+
+$config = require_once $configPath;
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-require_once 'lib/IP.php';
-require_once 'lib/NoIP.php';
-require_once 'lib/Storage.php';
+require_once $srcDir . 'lib/IP.php';
+require_once $srcDir . 'lib/NoIP.php';
+require_once $srcDir . 'lib/Storage.php';
 
 $storage = new Storage();
 $storage

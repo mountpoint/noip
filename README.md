@@ -1,7 +1,7 @@
 NoIP client
 ========================
 
-v0.1.1
+v0.2.0
 
 Installation
 ------------------
@@ -10,3 +10,10 @@ Installation
 
  - chmod +x install
  - ./install
+
+
+Usage
+------------------
+
+ - go to ```src/config.php``` and put the settings
+ - run ```bin/broadcast```
