@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "mountpoint/curl",
-            "version": "0.1.0",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mountpoint/curl.git",
-                "reference": "33992aecd95cb6c5f40f8171a97a845c94083f0e"
+                "reference": "06a6a3b5fdf3436fd449239e4882b4aacd890a07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mountpoint/curl/zipball/33992aecd95cb6c5f40f8171a97a845c94083f0e",
-                "reference": "33992aecd95cb6c5f40f8171a97a845c94083f0e",
+                "url": "https://api.github.com/repos/mountpoint/curl/zipball/06a6a3b5fdf3436fd449239e4882b4aacd890a07",
+                "reference": "06a6a3b5fdf3436fd449239e4882b4aacd890a07",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Mountpoint\\": "src"
+                    "Mountpoint\\Curl\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -35,12 +35,12 @@
             ],
             "authors": [
                 {
-                    "name": "Andrey Radzihovskiy",
+                    "name": "Andy Rad",
                     "email": "mountpoint@mail.ru"
                 }
             ],
             "description": "A tiny cURL wrapper",
-            "time": "2017-09-20T11:34:52+00:00"
+            "time": "2017-09-20T12:40:20+00:00"
         }
     ],
     "packages-dev": [],
