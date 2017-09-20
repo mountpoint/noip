@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "mountpoint/curl",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mountpoint/curl.git",
-                "reference": "06a6a3b5fdf3436fd449239e4882b4aacd890a07"
+                "reference": "98c6852213875b43eb71b01c67a93c82c8e5d613"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mountpoint/curl/zipball/06a6a3b5fdf3436fd449239e4882b4aacd890a07",
-                "reference": "06a6a3b5fdf3436fd449239e4882b4aacd890a07",
+                "url": "https://api.github.com/repos/mountpoint/curl/zipball/98c6852213875b43eb71b01c67a93c82c8e5d613",
+                "reference": "98c6852213875b43eb71b01c67a93c82c8e5d613",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "A tiny cURL wrapper",
-            "time": "2017-09-20T12:40:20+00:00"
+            "time": "2017-09-20T16:59:14+00:00"
         }
     ],
     "packages-dev": [],
